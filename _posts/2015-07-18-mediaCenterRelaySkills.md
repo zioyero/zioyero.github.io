@@ -16,7 +16,7 @@ How did I accomplish this witchcraft? Thanks to the efforts of projects such as 
 ##### Disclaimer:
 This code worked for me on my system. It may not work for you on your system. If you don't understand what the code does, do not use it.
 
-Looking for the code right away? [Find it here, on GitHub!](http://zioyero.github.com)
+Looking for the code right away? [Find it here, on GitHub!](https://github.com/zioyero/mediaCenterSkill)
 
 #### [Alexa Skill][alexa-skills]
 
