@@ -1,0 +1,11 @@
+# Site settings
+title: zioyero's notebook
+email: zioyero@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  My notebook. It's mostly to keep track of the things I've done and how I did them.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+github_username:  zioyero
+
+# Build settings
+markdown: kramdown
