@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Using the Amazon Echo to Control a VLC-based Media Center"
+title:  "Using the Amazon Echo to Control VLC and YouTube"
 date:   2015-07-18 23:02:14
 categories: Amazon Echo, VLC, Home Automation
 ---
 
-When I first got an [Amazon Echo][amazon-echo], I was immediately amazed by the voice recognition capabilities it had. In a normal home environment there wasn't very much noise and Alexa would recognize almost every command given to her. I spent some time setting up my [Phillips Hue][smart-lights] and enjoying that I could now control my lights with my voice, something that I felt was straight out of a science fiction story. 
+The [Amazon Echo][amazon-echo] is a fantastic step in voice-controlled assistants. I've been calling it my "assistant cylinder". In a normal home environment there wasn't very much noise and Alexa recognizes almost every command given to her. I spent some time setting up my [Phillips Hue][smart-lights] and enjoying that I could now control my lights with my voice, something that I felt was straight out of a science fiction story. 
 
 Having an Amazon Prime account, I did get Alexa to play some music from the Amazon Prime Music catalog, but I felt that it could be better. For one, I'm using the [Echo][amazon-echo] in my living room, where I've already got my television media center and speakers wired up and music from them sounds great. Secondly, the selection in the free part of the Prime Music catalog could be better. I asked it for a decent amount of songs that it could only play samples of. These were really my only complaints about the Echo. I wanted to use it to control my own speakers, and to select the content source. As a programmer, I felt that thanks to the [Alexa Skills Kit][alexa-skills], I could accomplish this myself. And I have done just that. I can now tell Alexa to tell my media center to play anything from my media library or anything from YouTube and have it play on my television instantly through [VLC][vlc]. It has support for next, previous, stop, resume, and other commands that can control your media. No more keyboard or mouse required!
 
@@ -14,6 +14,8 @@ Having an Amazon Prime account, I did get Alexa to play some music from the Amaz
 How did I accomplish this witchcraft? Thanks to the efforts of projects such as [VLC][vlc], [OpenCV][opencv], [fuzzywuzzy][fuzzy], and the [YouTube API][youtube-api], as well as [Amazon's Lambda][lambda], we were able to make everything talk to each other and combine to make a great thing. 
 
 ##### Disclaimer:
+
+
 This code worked for me on my system. It may not work for you on your system. If you don't understand what the code does, do not use it.
 
 Looking for the code right away? [Find it here, on GitHub!](https://github.com/zioyero/mediaCenterSkill)
